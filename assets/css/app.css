@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-board {
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.header > div:nth-child(1), .header > div:nth-child(3) {
+  width: calc((100% - 738px) / 2);
+  display: flex;
+  justify-content: center;
+}
+
+.touch-btn {
+  width: 170px;
+  height: 44px;
+  text-align: center;
+  padding: 12px 0px 10px 0px;
+  border: 2px #6B07ED solid;
+  border-radius: 30px;
+  color: #000000;
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 16px);
+  font-weight: var(--font-1-font-weight, 400);
+}
+.touch-btn:hover {
+  cursor: pointer;
+}
+
+
+
+.navbar {
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 0px 35px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  width: 738px;
+  height: 44px;
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 16px);
+  font-weight: var(--font-1-font-weight, 400);
+}
+.navbar > div {
+  width: 25%;
+  text-align: center;
+  padding-top: 13px;
+}
+.navbar > div:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+.ellipse-3 {
+  background: rgba(107, 7, 237, 0.3);
+  border-radius: 50%;
+  width: 353px;
+  height: 678px;
+  transform-origin: 0 0;
+  transform: rotate(21.509deg) scale(1, 1);
+  filter: blur(150px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+
+.ellipse-4 {
+  background: rgba(107, 7, 237, 0.3);
+  border-radius: 50%;
+  width: 353px;
+  height: 678px;
+  transform-origin: 0 0;
+  transform: rotate(-12.624deg) scale(1, 1);
+  filter: blur(150px);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -10;
+}
+
+
+
+
+.cta {
+  width: 528px;
+  height: 54px;
+  border-radius: 30px;
+  border: 1px #000 solid;
+  margin: 2em auto 3em auto;
+  padding: 5px;
+  display: flex;
+}
+.input-email {
+  width: calc(100% - 170px - 40px);
+  height: 34px;
+  margin: 5px 20px 5px 20px;
+  border: none;
+  border-bottom: 1px rgba(0,0,0,.5) solid;
+  outline: none;
+  background: none;
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 16px);
+  font-weight: var(--font-1-font-weight, 400);
+}
+.input-touch-btn {
+  width: 170px;
+  height: 44px;
+  text-align: center;
+  padding: 12px 0px 10px 0px;
+  border: 2px #6B07ED solid;
+  border-radius: 30px;
+  color: #000000;
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 16px);
+  font-weight: var(--font-1-font-weight, 400);
+}
+.input-touch-btn:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+.frame-4 {
+  margin: 3rem auto 0 auto;
+  text-align: center;
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 95px);
+  font-weight: var(--font-1-font-weight, 400);
+}
+
+
+
+
+
+.automate-workflows-engage-customers-and-cut-costs-effortlessly-to-boost-your-business {
+  color: #000000;
+  text-align: center;
+  font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-3-font-size, 20px);
+  line-height: var(--font-3-line-height, 150%);
+  font-weight: var(--font-3-font-weight, 400);
+  position: relative;
+  height: 50px;
+  margin: 2rem auto 0 auto;
+}
+
+
+
+
+
+
+.main-image {
+  margin: auto;
+  max-width: 1100px;
+  height: 712px;
+  position: relative;
+  overflow: hidden;
+}
+.background-complete {
+  height: auto;
+  position: absolute;
+  left: 64.48px;
+  top: 0.03px;
+  overflow: visible;
+}
+.floor {
+  height: auto;
+  position: absolute;
+  left: 27.52px;
+  top: 623.15px;
+  overflow: visible;
+}
+.plant {
+  height: auto;
+  position: absolute;
+  left: 914.59px;
+  top: 412.06px;
+  overflow: visible;
+}
+.character-2 {
+  height: auto;
+  position: absolute;
+  left: 167.33px;
+  top: 8.03px;
+  overflow: visible;
+}
+.code {
+  height: auto;
+  position: absolute;
+  left: 314.02px;
+  top: 382.4px;
+  overflow: visible;
+}
+.text {
+  height: auto;
+  position: absolute;
+  left: 691.47px;
+  top: 430.55px;
+  overflow: visible;
+}
+.tools {
+  height: auto;
+  position: absolute;
+  left: 811.24px;
+  top: 269.96px;
+  overflow: visible;
+}
+.colors {
+  height: auto;
+  position: absolute;
+  left: 792.22px;
+  top: 54.05px;
+  overflow: visible;
+}
+.character-1 {
+  height: auto;
+  position: absolute;
+  left: 45.31px;
+  top: 211.39px;
+  overflow: visible;
+}
+
+
+
+
+/* 1440  */
+@media (max-width: 1440px) {
+  ./*main-board {
+    border: 2px solid red;
+  }*/
+}
+
+
+
+
+
+/* 1100  */
+@media (max-width: 1100px) {
+  .m/*ain-board {
+    border: 2px solid blue;
+  }*/
+
+  .header {
+    padding: 0 10 0 10;
+    gap: 10;
+  }
+  .header > div:nth-child(1) {
+    display: none;
+  }
+  .navbar {
+    width: 75%;
+  }
+  .header > div:nth-child(3) {
+    width: calc(100% - 75%);
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .frame-4 {
+    font-size: var(--font-1-font-size, 80px);
+  }
+
+}
+
+
+
+
+
+/* 768  */
+@media (max-width: 768px) {
+  ./*main-board {
+    border: 2px solid green;
+  }*/
+
+  .navbar {
+    width: 100%;
+  }
+  .header > div:nth-child(1), .header > div:nth-child(3) {
+    display: none;
+  }
+
+
+  .frame-4 {
+    font-size: var(--font-1-font-size, 50px);
+  }
+
+  .automate-workflows-engage-customers-and-cut-costs-effortlessly-to-boost-your-business {
+    margin: 1rem auto 0 auto;
+  }
+
+  .cta {
+    width: 80%;
+  }
+
+}
