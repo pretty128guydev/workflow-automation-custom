@@ -118,7 +118,6 @@ body {
   height: 34px;
   margin: 5px 20px 5px 20px;
   border: none;
-  border-bottom: 1px rgba(0,0,0,.5) solid;
   outline: none;
   background: none;
   font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
@@ -250,9 +249,7 @@ body {
 
 /* 1440  */
 @media (max-width: 1440px) {
-  ./*main-board {
-    border: 2px solid red;
-  }*/
+  
 }
 
 
@@ -261,13 +258,9 @@ body {
 
 /* 1100  */
 @media (max-width: 1100px) {
-  .m/*ain-board {
-    border: 2px solid blue;
-  }*/
 
   .header {
-    padding: 0 10 0 10;
-    gap: 10;
+    padding: 0 20 0 20;
   }
   .header > div:nth-child(1) {
     display: none;
@@ -294,9 +287,6 @@ body {
 
 /* 768  */
 @media (max-width: 768px) {
-  ./*main-board {
-    border: 2px solid green;
-  }*/
 
   .navbar {
     width: 100%;
