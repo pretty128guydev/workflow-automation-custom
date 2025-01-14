@@ -247,11 +247,930 @@ body {
 
 
 
+
+
+.works-board {
+  position: relative;
+  width: 1100px;
+  height: 2950px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
+
+
+
+
+.benefits {
+  position: relative;
+  margin-left: -150px;
+}
+.line {
+  width: 672px;
+  height: 2489px;
+  position: absolute;
+  left: 259px;
+  top: 210px;
+  overflow: visible;
+}
+.line-4 {
+  margin-top: -2px;
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 782px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 32px;
+}
+.how-it-works {
+  color: #000000;
+  text-align: left;
+  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-5-font-size, 20px);
+  font-weight: var(--font-5-font-weight, 700);
+  position: absolute;
+  left: 149px;
+  top: 0px;
+}
+
+.line-17 {
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  transform-origin: 0 0;
+  transform: rotate(180deg) scale(1, 1);
+  width: 493px;
+  height: 0px;
+  position: absolute;
+  top: 2700px;
+  left: 780px;
+}
+.line-11 {
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 64px;
+  height: 0px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+  position: absolute;
+  top: 1250px;
+  left: 260px;
+}
+.line-14 {
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 134px;
+  height: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  position: absolute;
+  top: 1670px;
+  left: 930px;
+}
+
+
+
+
+.benefits-1-panel {
+  position: absolute;
+  top: 15;
+  right: 10;
+}
+.benefits-1 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-1 .automation-setup {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-1 .set-up-your-automation-in-three-steps-select-a-trigger-connect-your-apps-and-create-natural-language-instructions-ai-provides-all-the-tools-you-need-for-integration-and-automation {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-1 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-1 .group {
+  height: auto;
+  position: absolute;
+  left: 4px;
+  top: 0px;
+  overflow: visible;
+}
+.benefits-1 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-1 .group2 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+
+
+
+
+
+
+.benefits-2-panel {
+  position: absolute;
+  top: 190;
+  left: 10;
+}
+.benefits-2 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-2 .customer-engagement {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-2 .ai-ensures-instant-24-7-support-responds-to-customers-in-seconds-integrates-into-your-website-and-uses-knowledge-bases-to-provide-accurate-answers {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-2 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-2 .tabler-headset {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-2 .group {
+  width: 66.67%;
+  height: 79.17%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 8.33%;
+  top: 12.5%;
+  overflow: visible;
+}
+.benefits-2 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-2 .tabler-headset2 {
+  width: 484px;
+  height: 484px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-2 .group2 {
+  width: 66.67%;
+  height: 79.17%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 8.33%;
+  top: 12.5%;
+  overflow: visible;
+}
+
+
+
+
+
+.benefits-4-panel {
+  position: absolute;
+  top: 580;
+  right: 10;
+}
+.benefits-4 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-4 .lead-and-sales-management {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-4 .ai-helps-you-find-and-qualify-leads-automate-outreach-prepare-sales-documents-and-set-follow-up-reminders-for-improved-sales-efficiency {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-4 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-4 .tabler-coin {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-4 .group {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.benefits-4 .big-icon {
+  width: 484px;
+  height: 504px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-4 .tabler-coin2 {
+  width: 484px;
+  height: 504px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-4 .group2 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+
+
+
+
+
+.benefits-5-panel {
+  position: absolute;
+  top: 790;
+  left: 10;
+}
+.benefits-5 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-5 .advanced-support-features {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-5 .ai-collects-conversation-data-shares-key-quotes-with-your-team-answers-slack-questions-and-keeps-your-knowledge-base-updated-in-real-time {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-5 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-5 .tdesign-chart-analytics {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.benefits-5 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 60px;
+  top: 89px;
+}
+.benefits-5 .tdesign-chart-analytics2 {
+  width: 484px;
+  height: 484px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+
+
+
+
+
+.benefits-6-panel {
+  position: absolute;
+  top: 1170;
+  right: 10;
+}
+.benefits-6 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-6 .email-optimization {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-6 .save-time-with-automated-email-sorting-draft-creation-and-inbox-organization-ai-simplifies-email-management-for-you {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-6 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-6 .line-md-email-check {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-6 .mask-group {
+  height: auto;
+  position: absolute;
+  left: 10px;
+  top: 16.67px;
+  overflow: visible;
+}
+.benefits-6 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-6 .line-md-email-check2 {
+  width: 484px;
+  height: 484px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-6 .mask-group2 {
+  height: auto;
+  position: absolute;
+  left: 60.5px;
+  top: 100.83px;
+  overflow: visible;
+}
+
+
+
+
+
+
+
+.benefits-7-panel {
+  position: absolute;
+  top: 1380;
+  left: 10;
+}
+.benefits-7 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-7 .meeting-assistant {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-7 .ai-records-meetings-takes-notes-suggests-time-slots-for-scheduling-and-provides-feedback-to-improve-your-discussions {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-7 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-7 .line-md-calendar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-7 .vector {
+  width: 58.33%;
+  height: 12.5%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 66.67%;
+  top: 20.83%;
+  overflow: visible;
+}
+.benefits-7 .group {
+  width: 66.67%;
+  height: 75%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 16.67%;
+  top: 8.33%;
+  overflow: visible;
+}
+.benefits-7 .big-icon {
+  width: 484px;
+  height: 487px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-7 .line-md-calendar2 {
+  width: 487px;
+  height: 487px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-7 .vector2 {
+  width: 58.33%;
+  height: 12.5%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 66.67%;
+  top: 20.83%;
+  overflow: visible;
+}
+.benefits-7 .group2 {
+  width: 66.67%;
+  height: 75%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 16.67%;
+  top: 8.33%;
+  overflow: visible;
+}
+
+
+
+
+
+.benefits-8-panel {
+  position: absolute;
+  top: 1800;
+  right: 10;
+}
+.benefits-8 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-8 .scaling-and-data-management {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-8 .ai-automates-calls-communicates-with-customers-in-50-languages-processes-large-data-sets-and-supports-multiple-accounts-from-the-same-service {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-8 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-8 .mynaui-globe {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.benefits-8 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-8 .mynaui-globe2 {
+  width: 484px;
+  height: 484px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+
+
+
+
+
+.benefits-9-panel {
+  position: absolute;
+  top: 2030;
+  left: 10;
+}
+.benefits-9 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-9 .ai-model-configuration {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-9 .choose-ai-models-that-suit-your-tasks-best-and-manage-processes-at-any-stage-lindy-supports-collaboration-among-multiple-agents {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-9 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-9 .line-md-document-code {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-9 .group {
+  width: 58.33%;
+  height: 75%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+.benefits-9 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-9 .line-md-document-code2 {
+  width: 484px;
+  height: 484px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.benefits-9 .group2 {
+  width: 58.33%;
+  height: 75%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 12.5%;
+  top: 12.5%;
+  overflow: visible;
+}
+
+
+
+
+.benefits-10-panel {
+  position: absolute;
+  top: 2500;
+  right: 10;
+}
+.benefits-10 {
+  background: var(--white, #ffffff);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--strokt-primary, rgba(107, 7, 237, 0.7));
+  border-width: 2px;
+  width: 511px;
+  height: 398px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.benefits-10 .security-and-reliability {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-4-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-4-font-size, 24px);
+  font-weight: var(--font-4-font-weight, 700);
+  position: absolute;
+  left: 26px;
+  top: 100px;
+}
+.benefits-10 .ai-ensures-enterprise-grade-security-and-compliance-with-the-highest-data-protection-standards {
+  color: var(--black-font, #000000);
+  text-align: left;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 24px);
+  font-weight: var(--font-2-font-weight, 400);
+  position: absolute;
+  left: 26px;
+  top: 154px;
+  width: 459px;
+  height: 184px;
+}
+.benefits-10 .mini-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  overflow: hidden;
+}
+.benefits-10 .material-symbols-shield-outline-rounded {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.benefits-10 .big-icon {
+  width: 484px;
+  height: 535.29px;
+  position: absolute;
+  left: 151px;
+  top: 35px;
+}
+.benefits-10 .material-symbols-shield-outline-rounded2 {
+  width: 521px;
+  height: 521px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+
+
+
+
+.benefits-line {
+  position: relative;
+  display: none;
+}
+.benefits-line .line {
+  width: 635.75px;
+  height: 3822px;
+  position: absolute;
+  left: 69.25px;
+  top: 29px;
+  overflow: visible;
+}
+.benefits-line .line-4 {
+  margin-top: -2px;
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 702px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 32px;
+}
+.benefits-line .how-it-works {
+  color: #000000;
+  text-align: left;
+  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--font-5-font-size, 20px);
+  font-weight: var(--font-5-font-weight, 700);
+  position: absolute;
+  left: 10;
+  top: 0px;
+  width: 171px;
+}
+
+
+
+
+
+
+
 /* 1440  */
 @media (max-width: 1440px) {
   
 }
-
 
 
 
@@ -279,10 +1198,28 @@ body {
     font-size: var(--font-1-font-size, 80px);
   }
 
+
+  .works-board {
+    width: auto;
+    height: 4100px;
+    padding-top: 10px;
+    overflow: hidden;
+  }
+/*  .benefits {
+    display: none;
+  }
+  .benefits-line {
+    display: block;
+  }*/
+
+  .benefits-1-panel, .benefits-2-panel, .benefits-4-panel, .benefits-5-panel, .benefits-6-panel, .benefits-7-panel, .benefits-8-panel, .benefits-9-panel, .benefits-10-panel {
+    position: initial;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
 }
-
-
-
 
 
 
