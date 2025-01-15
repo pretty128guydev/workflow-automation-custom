@@ -1125,42 +1125,144 @@ body {
 
 
 
+.me-board {
+  width: 1100px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
 
-.benefits-line {
+
+.me-line {
   position: relative;
-  display: none;
+  height: 50px;
+  margin-left: -150px;
 }
-.benefits-line .line {
-  width: 635.75px;
-  height: 3822px;
-  position: absolute;
-  left: 69.25px;
-  top: 29px;
-  overflow: visible;
-}
-.benefits-line .line-4 {
+.line-4-me {
   margin-top: -2px;
-  border-style: dashed;
+  border-style: dashed; 
   border-color: var(--primary, #6b07ed);
   border-width: 2px 0 0 0;
-  width: 702px;
+  width: 690px;
   height: 0px;
   position: absolute;
   left: 0px;
   top: 32px;
 }
-.benefits-line .how-it-works {
+.about-me {
   color: #000000;
   text-align: left;
   font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
   font-size: var(--font-5-font-size, 20px);
   font-weight: var(--font-5-font-weight, 700);
   position: absolute;
-  left: 10;
+  left: 149px;
   top: 0px;
-  width: 171px;
+}
+.line-20 {
+  margin-top: -2px;
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 28px;
+  height: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  position: absolute;
+  top: 35;
+  left: 690;
 }
 
+
+
+.me-profile {
+  display: flex;
+  max-width: 1100px;
+}
+
+.me-profile > div {
+  width: 50%;
+}
+
+.me-profile > div:nth-child(1) {
+  text-align: center;
+}
+.me-profile > div:nth-child(2) {
+  padding: 10 20 10 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 289px;
+  height: 289px;
+  position: relative;
+  object-fit: cover;
+}
+
+.me-name {
+  margin-top: 1rem;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 32px);
+  font-weight: var(--font-2-font-weight, 600);
+}
+
+.me-profile-text {
+  margin-top: 1rem;
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 20px);
+  font-weight: var(--font-2-font-weight, 550);
+}
+
+.me-profile-text1 {
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 20px);
+  font-weight: var(--font-2-font-weight, 400);
+}
+
+.me-skills {
+  font-family: var(--font-2-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-2-font-size, 20px);
+  font-weight: var(--font-2-font-weight, 400);
+}
+.me-skills > div {
+  margin-top: 15px;
+}
+
+
+
+
+
+.me-line-right {
+  position: relative;
+  height: 50px;
+  margin-right: -150px;
+}
+.line-4-me-right {
+  margin-top: -2px;
+  border-style: dashed; 
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 690px;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  top: 32px;
+}
+.line-20-right {
+  margin-top: -2px;
+  border-style: dashed;
+  border-color: var(--primary, #6b07ed);
+  border-width: 2px 0 0 0;
+  width: 28px;
+  height: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  position: absolute;
+  top: 3;
+  right: 660;
+}
 
 
 
@@ -1205,13 +1307,6 @@ body {
     padding-top: 10px;
     overflow: hidden;
   }
-/*  .benefits {
-    display: none;
-  }
-  .benefits-line {
-    display: block;
-  }*/
-
   .benefits-1-panel, .benefits-2-panel, .benefits-4-panel, .benefits-5-panel, .benefits-6-panel, .benefits-7-panel, .benefits-8-panel, .benefits-9-panel, .benefits-10-panel {
     position: initial;
     display: flex;
@@ -1219,6 +1314,23 @@ body {
     margin-top: 3rem;
   }
 
+  .me-board {
+    width: auto;
+  }
+
+  .me-profile {
+    display: block;
+  }
+  .me-profile > div {
+    width: 100%;
+  }
+  .me-profile-text1 {
+    margin: 2rem auto 2rem auto;
+  }
+  .me-skills {
+    max-width: 500px;
+    margin: auto;
+  }
 }
 
 
