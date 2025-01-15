@@ -37,6 +37,8 @@ body {
 }
 .touch-btn:hover {
   cursor: pointer;
+  background: #6B07ED;
+  color: #fff;
 }
 
 
@@ -66,6 +68,7 @@ body {
 }
 .navbar > div:hover {
   cursor: pointer;
+  color: #6B07ED;
 }
 
 
@@ -138,6 +141,8 @@ body {
 }
 .input-touch-btn:hover {
   cursor: pointer;
+  background: #6B07ED;
+  color: #fff;
 }
 
 
@@ -256,7 +261,11 @@ body {
   margin: auto;
   padding: 0 10px 0 10px;
 }
-
+.works-board > div:hover {
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
+}
 
 
 
@@ -1980,7 +1989,7 @@ body {
 
 
 .faqs-board {
-  padding: 3rem;
+  padding: 4rem;
 }
 
 .faqs-title {
@@ -1999,8 +2008,60 @@ body {
   padding-right: 20px;
   border-radius: 30px;
   border: 2px solid #6B07ED;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
+
+
+
+.footer-board {
+  background: #272727;
+  height: 166px;
+}
+.footer-board > div:nth-child(1) > div {
+  width: 50%;
+}
+.footer-board > div:nth-child(1) {
+  display: flex;
+  height: 80%;
+}
+.footer-board > div:nth-child(2) {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-board > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-board .email-address {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.social-links {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.footer-board > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 
 
 
