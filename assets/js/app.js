@@ -44,7 +44,7 @@ let itemCount1 = 4;
 let currentIndex1 = 1;
 
 function moveCard1() {
-  if (currentIndex1 > itemCount) currentIndex1 = 0;
+  if (currentIndex1 > itemCount1) currentIndex1 = 0;
   for (let i = 0; i < items1.length; i++) {
     document.getElementsByClassName('tool-card')[i].style.transition = 'transform linear .3s';
     const demo = -400 * currentIndex1;
