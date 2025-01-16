@@ -55,3 +55,23 @@ function moveCard1() {
 }
 
 setInterval(function() {moveCard1()}, 3700);
+
+
+
+
+
+function toStart() {
+  location.href = "#header";
+}
+
+function toHowWork() {
+  location.href = "#works-board";
+}
+
+function toAboutMe() {
+  location.href = "#me-board";
+}
+
+function toReview() {
+  location.href = "#review";
+}
