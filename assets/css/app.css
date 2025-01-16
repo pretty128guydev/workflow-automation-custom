@@ -1723,6 +1723,7 @@ body {
   display: flex;
 }
 .comment .card {
+  width: 400px;
   min-width: 400px;
   height: 100%;
   border-right: 2px solid rgba(139, 135, 135, 0.2);
@@ -1775,154 +1776,54 @@ body {
 .comment-tool {
   background: var(--white, #ffffff);
   height: 274px;
-  position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
-  overflow: hidden;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 30 0 30 0;
+  display: flex;
 }
-.comment-tool .frame-6 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: -83px;
-  top: 37px;
+.comment-tool .tool-card {
+  width: 400px;
+  min-width: 400px;
+  height: 100%;
+  border-right: 2px solid rgba(139, 135, 135, 0.2);
+  display: flex;
+  padding: 0 25 0 25;
+  transition: transform linear .3s;
 }
-.comment-tool .ellipse-2 {
-  background: #d9d9d9;
-  border-radius: 50%;
-  width: 79px;
+.comment-tool .tool-card > div:nth-child(1) {
+  width: 30%;
+}
+.comment-tool .tool-card > div:nth-child(2) {
+  width: 70%;
+}
+.comment-tool .co-avatar {
+  border-style: solid;
+  border-color: #616161;
+  border-width: 1px;
+  width: 78px;
   height: 79px;
-  position: absolute;
-  left: 0px;
-  top: 5px;
+  position: relative;
+  object-fit: cover;
 }
-.comment-tool .barone-llc {
+.comment-tool .co-name {
+  height: 70px;
   color: #000000;
   text-align: left;
   font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
   font-size: var(--font-5-font-size, 20px);
   font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 122px;
-  top: 33px;
+  line-height: 60px;
 }
-.comment-tool .lorem-ipsum-dolor-sit-amet-consectetur-accumsan-eu-iaculis-sit-placerat-consectetur {
+.comment-tool .feedback-co {
   color: #000000;
   text-align: left;
   font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
   font-size: var(--font-3-font-size, 20px);
   line-height: var(--font-3-line-height, 150%);
   font-weight: var(--font-3-font-weight, 400);
-  position: absolute;
-  left: 94px;
-  top: 78px;
-  width: 252px;
-  height: 116px;
 }
-.comment-tool .rectangle-3 {
-  background: rgba(139, 135, 135, 0.2);
-  width: 2px;
-  height: 194px;
-  position: absolute;
-  left: 346px;
-  top: 0px;
-}
-.comment-tool .frame-7 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 299px;
-  top: 37px;
-}
-.comment-tool .acme-co {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 122px;
-  top: 33px;
-}
-.comment-tool .lorem-ipsum-dolor-sit-amet-consectetur-accumsan-eu-iaculis-sit-placerat-consectetur2 {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
-  font-size: var(--font-3-font-size, 20px);
-  line-height: var(--font-3-line-height, 150%);
-  font-weight: var(--font-3-font-weight, 400);
-  position: absolute;
-  left: 94px;
-  top: 78px;
-  width: 256px;
-  height: 116px;
-}
-.comment-tool .rectangle-6 {
-  border-style: solid;
-  border-color: #616161;
-  border-width: 1px;
-  width: 78px;
-  height: 79px;
-  position: absolute;
-  left: 1px;
-  top: 5px;
-  object-fit: cover;
-}
-.comment-tool .frame-8 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 681px;
-  top: 37px;
-}
-.comment-tool .biffco-enterprises-ltd {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 122px;
-  top: 33px;
-}
-.comment-tool .rectangle-5 {
-  border-style: solid;
-  border-color: #616161;
-  border-width: 1px;
-  width: 78px;
-  height: 79px;
-  position: absolute;
-  left: 1px;
-  top: 5px;
-  object-fit: cover;
-}
-.comment-tool .frame-9 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 1063px;
-  top: 37px;
-}
-.comment-tool .binford-ltd {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 122px;
-  top: 33px;
-}
-.comment-tool .rectangle-4 {
-  border-style: solid;
-  border-color: #616161;
-  border-width: 1px;
-  width: 81px;
-  height: 81px;
-  position: absolute;
-  left: 2px;
-  top: 3px;
-  object-fit: cover;
-}
+
 
 
 
