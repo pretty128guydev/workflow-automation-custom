@@ -275,11 +275,6 @@ body {
   margin: auto;
   padding: 0 10px 0 10px;
 }
-.works-board > div:hover {
-  border-radius: 30px;
-  box-shadow: 0px 0px 10px rgb(151,82,243);
-  transition: box-shadow linear .2s;
-}
 
 
 
@@ -388,6 +383,10 @@ body {
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
 }
+.benefits-1:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
+}
 .benefits-1 .automation-setup {
   color: var(--black-font, #000000);
   text-align: left;
@@ -469,6 +468,10 @@ body {
   position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
+}
+.benefits-2:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
 }
 .benefits-2 .customer-engagement {
   color: var(--black-font, #000000);
@@ -572,6 +575,10 @@ body {
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
 }
+.benefits-4:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
+}
 .benefits-4 .lead-and-sales-management {
   color: var(--black-font, #000000);
   text-align: left;
@@ -674,6 +681,10 @@ body {
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
 }
+.benefits-5:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
+}
 .benefits-5 .advanced-support-features {
   color: var(--black-font, #000000);
   text-align: left;
@@ -756,6 +767,10 @@ body {
   position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
+}
+.benefits-6:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
 }
 .benefits-6 .email-optimization {
   color: var(--black-font, #000000);
@@ -854,6 +869,10 @@ body {
   position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
+}
+.benefits-7:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
 }
 .benefits-7 .meeting-assistant {
   color: var(--black-font, #000000);
@@ -977,6 +996,10 @@ body {
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
 }
+.benefits-8:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
+}
 .benefits-8 .scaling-and-data-management {
   color: var(--black-font, #000000);
   text-align: left;
@@ -1059,6 +1082,10 @@ body {
   position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
+}
+.benefits-9:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
 }
 .benefits-9 .ai-model-configuration {
   color: var(--black-font, #000000);
@@ -1160,6 +1187,10 @@ body {
   position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: hidden;
+}
+.benefits-10:hover {
+  box-shadow: 0px 0px 10px rgb(151,82,243);
+  transition: box-shadow linear .2s;
 }
 .benefits-10 .security-and-reliability {
   color: var(--black-font, #000000);
