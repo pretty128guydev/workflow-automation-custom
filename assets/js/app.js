@@ -35,4 +35,23 @@ function moveCard() {
   currentIndex++;
 }
 
-setInterval(function() {moveCard()}, 3000);
+setInterval(function() {moveCard()}, 2200);
+
+
+
+let items1 = document.getElementsByClassName('tool-card');
+let itemCount1 = 4;
+let currentIndex1 = 1;
+
+function moveCard1() {
+  if (currentIndex1 > itemCount1) currentIndex1 = 0;
+  for (let i = 0; i < items1.length; i++) {
+    document.getElementsByClassName('tool-card')[i].style.transition = 'transform linear .3s';
+    const demo = -400 * currentIndex1;
+    if (currentIndex1 == 0) document.getElementsByClassName('tool-card')[i].style.transition = 'none';
+    document.getElementsByClassName('tool-card')[i].style.transform = `translateX(${demo}px)`;
+  }
+  currentIndex1++;
+}
+
+setInterval(function() {moveCard1()}, 3700);
