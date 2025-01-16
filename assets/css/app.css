@@ -43,6 +43,7 @@ body {
   cursor: pointer;
   background: #6B07ED;
   color: #fff;
+  transition: all linear .2s;
 }
 
 
@@ -147,6 +148,7 @@ body {
   cursor: pointer;
   background: #6B07ED;
   color: #fff;
+  transition: all linear .2s;
 }
 
 
