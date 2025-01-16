@@ -1716,124 +1716,53 @@ body {
 .comment {
   background: var(--white, #ffffff);
   height: 274px;
-  position: relative;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
-  overflow: hidden;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 30 0 30 0;
+  display: flex;
 }
-.comment .frame-6 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 37px;
-  top: 37px;
+.comment .card {
+  min-width: 400px;
+  height: 100%;
+  border-right: 2px solid rgba(139, 135, 135, 0.2);
+  display: flex;
+  padding: 0 25 0 25;
+  transition: transform linear .3s;
 }
-.comment .ellipse-2 {
+.comment .card > div:nth-child(1) {
+  width: 30%;
+}
+.comment .card > div:nth-child(2) {
+  width: 70%;
+}
+.comment .client-avatar {
   border-radius: 50%;
   border-style: solid;
   border-color: #616161;
   border-width: 1px;
   width: 79px;
   height: 79px;
-  position: absolute;
-  left: 0px;
-  top: 5px;
   object-fit: cover;
 }
-.comment .guy-hawkins {
+.comment .client-name {
+  height: 70px;
   color: #000000;
   text-align: left;
   font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
   font-size: var(--font-5-font-size, 20px);
   font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 94px;
-  top: 15px;
+  line-height: 60px;
 }
-.comment .lorem-ipsum-dolor-sit-amet-consectetur-accumsan-eu-iaculis-sit-placerat-consectetur {
+.comment .feedback-content {
   color: #000000;
   text-align: left;
   font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
   font-size: var(--font-3-font-size, 20px);
   line-height: var(--font-3-line-height, 150%);
   font-weight: var(--font-3-font-weight, 400);
-  position: absolute;
-  left: 94px;
-  top: 78px;
-  width: 252px;
-  height: 116px;
 }
-.comment .rectangle-3 {
-  background: rgba(139, 135, 135, 0.2);
-  width: 2px;
-  height: 194px;
-  position: absolute;
-  left: 360px;
-  top: 0px;
-}
-.comment .frame-7 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 419px;
-  top: 37px;
-}
-.comment .ronald-richards {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 94px;
-  top: 15px;
-}
-.comment .lorem-ipsum-dolor-sit-amet-consectetur-accumsan-eu-iaculis-sit-placerat-consectetur2 {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
-  font-size: var(--font-3-font-size, 20px);
-  line-height: var(--font-3-line-height, 150%);
-  font-weight: var(--font-3-font-weight, 400);
-  position: absolute;
-  left: 94px;
-  top: 78px;
-  width: 256px;
-  height: 116px;
-}
-.comment .frame-8 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 801px;
-  top: 37px;
-}
-.comment .jane-cooper {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 94px;
-  top: 15px;
-}
-.comment .frame-9 {
-  width: 350px;
-  height: 194px;
-  position: absolute;
-  left: 1183px;
-  top: 37px;
-}
-.comment .albert-flores {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  position: absolute;
-  left: 94px;
-  top: 15px;
-}
+
 
 
 
