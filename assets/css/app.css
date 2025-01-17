@@ -1462,6 +1462,7 @@ body {
   z-index: -5;
 }
 
+
 .frame-25-panel {
   position: absolute;
   top: 50;
@@ -1482,6 +1483,23 @@ body {
   width: auto;
   height: auto;
 }
+.frame-25-small {
+  background: var(--purple, rgb(193, 153, 244));
+  border-radius: 30px;
+  color: var(--black-font, #000000);
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: none;
+}
+.frame-25-small > div:nth-child(1) {
+  margin-bottom: 5px;
+}
+
 
 
 .frame-27-panel {
@@ -1504,6 +1522,26 @@ body {
   width: auto;
   height: auto;
   z-index: 5;
+}
+.frame-27-small {
+  background: var(--purple, rgb(193, 153, 244));
+  border-radius: 30px;
+  color: var(--black-font, #000000);
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  width: auto;
+  height: auto;
+  z-index: 5;
+  text-align: center;
+  display: none;
+}
+.frame-27-small > div:nth-child(1) {
+  margin-bottom: 5px;
 }
 
 
@@ -1529,8 +1567,26 @@ body {
   height: auto;
   z-index: 5;
 }
-
-
+.frame-26-small {
+  background: var(--purple, rgb(193, 153, 244));
+  border-radius: 30px;
+  color: var(--black-font, #000000);
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  z-index: 5;
+  text-align: center;
+  display: none;
+}
+.frame-26-small > div:nth-child(1) {
+  margin-bottom: 5px;
+}
 
 
 
@@ -1867,7 +1923,7 @@ body {
 .q:active .dropdown-symbol {
   transform: rotate(90deg);
 }
-#a1 {
+.a {
   background: #bb94f0;
   border-radius: 30px;
   font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
@@ -2030,7 +2086,7 @@ body {
 
 
   .frame-4 {
-    font-size: var(--font-1-font-size, 50px);
+    font-size: var(--font-1-font-size, 45px);
   }
 
   .automate-workflows-engage-customers-and-cut-costs-effortlessly-to-boost-your-business {
@@ -2048,6 +2104,47 @@ body {
   .form {
     width: 90%;
     left: calc((100% - 90%)/2);
+  }
+
+
+  .works-board > div > div > div:nth-child(2) {
+    width: auto;
+    font-size: 22px;
+  }
+
+
+  .cta {
+    margin: 4em auto 3em auto;
+  }
+
+
+  .q > div:nth-child(1) {
+    font-size: 16px;
+  }
+  .a {
+    font-size: 16px;
+  }
+
+
+  .frame-25 {
+    display: none;
+  }
+  .frame-25-small {
+    display: block;
+  }
+
+  .frame-27 {
+    display: none;
+  }
+  .frame-27-small {
+    display: block;
+  }
+
+  .frame-26 {
+    display: none;
+  }
+  .frame-26-small {
+    display: block;
   }
 
 }
