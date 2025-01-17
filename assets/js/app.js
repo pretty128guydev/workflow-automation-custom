@@ -75,3 +75,17 @@ function toAboutMe() {
 function toReview() {
   location.href = "#review";
 }
+
+
+
+
+
+document.getElementById('q1').addEventListener('click', function() {
+  event.stopPropagation();
+  document.getElementById('a1').style.display = 'block';
+  document.querySelector('#q1 .dropdown-symbol').style.transform = 'rotate(90deg)';
+})
+document.getElementById('body').addEventListener('click', function() {
+  document.getElementById('a1').style.display = 'none';
+  document.querySelector('#q1 .dropdown-symbol').style.transform = 'rotate(0deg)';
+})
