@@ -78,6 +78,66 @@ body {
 
 
 
+.small-header {
+  display: none;
+  height: 10px;
+  position: relative;
+  margin-top: 1em;
+}
+.small-navbar {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 1em;
+  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 25px);
+  font-weight: var(--font-1-font-weight, 400);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-navbar:hover {
+  cursor: pointer;
+  color: #6B07ED;
+}
+
+
+
+.mobile-navbar {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #ccc;
+  opacity: .95;
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform linear .3s;
+  padding: 1.5rem 3rem 2rem 3rem;
+}
+#mobile-navbar-close {
+  font-size: 30px;
+  margin-left: 145px;
+  margin-bottom: 2rem;
+}
+#mobile-navbar-close:hover {
+  cursor: pointer;
+  color: #6B07ED;
+}
+.mobile-nav-items {
+  font-family: var(--font-1-font-family, "Poppins-Regular", sans-serif);
+  font-size: var(--font-1-font-size, 20px);
+  font-weight: var(--font-1-font-weight, 400);
+  margin-bottom: 1rem;
+}
+.mobile-nav-items:hover {
+  cursor: pointer;
+  color: #6B07ED;
+}
+
+
 
 
 .ellipse-3 {
@@ -1592,12 +1652,12 @@ body {
 
 .contact-board {
   position: relative;
-  height: 1273px;
+  height: 1000px;
 }
 
 .bg-down {
   width: 95%;
-  height: 1273px;
+  height: 100%;
   margin: auto;
   background: var(
     --bg-purple,
@@ -1769,120 +1829,29 @@ body {
 
 .comment-panel {
   position: absolute;
-  bottom: 320;
+  bottom: 0;
   width: 100%;
 }
 .comment {
   background: var(--white, #ffffff);
-  height: 274px;
   box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
   overflow: auto;
   scrollbar-width: none;
-  padding: 30 0 30 0;
+}
+#cardbar {
+  height: 270px;
   display: flex;
+  padding: 30 0 30 0;
+  animation: moveCard 30s linear infinite;
 }
 .comment .card {
-  width: 400px;
-  min-width: 400px;
+  width: auto;
   height: 100%;
   border-right: 2px solid rgba(139, 135, 135, 0.2);
   display: flex;
   padding: 0 25 0 25;
-  transition: transform linear .3s;
+  
 }
-.comment .card > div:nth-child(1) {
-  width: 30%;
-}
-.comment .card > div:nth-child(2) {
-  width: 70%;
-}
-.comment .client-avatar {
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #616161;
-  border-width: 1px;
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-}
-.comment .client-name {
-  height: 70px;
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  line-height: 60px;
-}
-.comment .feedback-content {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
-  font-size: var(--font-3-font-size, 20px);
-  line-height: var(--font-3-line-height, 150%);
-  font-weight: var(--font-3-font-weight, 400);
-}
-
-
-
-
-
-.comment-tool-panel {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.comment-tool {
-  background: var(--white, #ffffff);
-  height: 274px;
-  box-shadow: var(--shadow-box-shadow, 0px 8px 35px 1px rgba(0, 0, 0, 0.25));
-  overflow: auto;
-  scrollbar-width: none;
-  padding: 30 0 30 0;
-  display: flex;
-}
-.comment-tool .tool-card {
-  width: 400px;
-  min-width: 400px;
-  height: 100%;
-  border-right: 2px solid rgba(139, 135, 135, 0.2);
-  display: flex;
-  padding: 0 25 0 25;
-  transition: transform linear .3s;
-}
-.comment-tool .tool-card > div:nth-child(1) {
-  width: 30%;
-}
-.comment-tool .tool-card > div:nth-child(2) {
-  width: 70%;
-}
-.comment-tool .co-avatar {
-  border-style: solid;
-  border-color: #616161;
-  border-width: 1px;
-  width: 78px;
-  height: 79px;
-  position: relative;
-  object-fit: cover;
-}
-.comment-tool .co-name {
-  height: 70px;
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-5-font-family, "Poppins-Bold", sans-serif);
-  font-size: var(--font-5-font-size, 20px);
-  font-weight: var(--font-5-font-weight, 700);
-  line-height: 60px;
-}
-.comment-tool .feedback-co {
-  color: #000000;
-  text-align: left;
-  font-family: var(--font-3-font-family, "Poppins-Regular", sans-serif);
-  font-size: var(--font-3-font-size, 20px);
-  line-height: var(--font-3-line-height, 150%);
-  font-weight: var(--font-3-font-weight, 400);
-}
-
 
 
 
@@ -2147,4 +2116,16 @@ body {
     display: block;
   }
 
+}
+
+
+
+/* 475  */
+@media (max-width: 475px) {
+  .header {
+    display: none;
+  }
+  .small-header {
+    display: block;
+  }
 }
